@@ -1,0 +1,494 @@
+{
+  "users": [
+    {
+      "employeeId": "EMP-2025-000001",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice@example.com",
+      "role": "admin",
+      "password": "Alice123",
+      "confirmPassword": "Alice123"
+    },
+    {
+      "employeeId": "EMP-2025-000002",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bob@example.com",
+      "role": "employee",
+      "password": "Bobsmith123",
+      "confirmPassword": "Bobsmith123"
+    },
+    {
+      "employeeId": "EMP-2025-000003",
+      "firstName": "Samual",
+      "lastName": "David",
+      "email": "samual@example.com",
+      "role": "employee",
+      "password": "Samual123",
+      "confirmPassword": "Samual123"
+    },
+    {
+      "id": "d202",
+      "employeeId": "EMP-2025-000004",
+      "firstName": "Vinod",
+      "lastName": "Kandasamy",
+      "email": "vinod.v@gmail.com",
+      "role": "employee",
+      "password": "Vinod123",
+      "confirmPassword": "Vinod123"
+    },
+    {
+      "id": "14dc",
+      "employeeId": "EMP-2025-000005",
+      "firstName": "Anita",
+      "lastName": "Sharma",
+      "email": "anita@example.com",
+      "role": "employee",
+      "password": "Anita123",
+      "confirmPassword": "Anita123"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-2025-000001",
+      "employeeId": "EMP-2025-000001",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "gender": "Female",
+      "dateOfBirth": "1995-03-21",
+      "maritalStatus": "Married",
+      "nationality": "American",
+      "contactDetails": {
+        "personalEmail": "alice@example.com",
+        "mobileNumber": "2347874324",
+        "emergencyContact": {
+          "name": "Mark Johnson",
+          "relationship": "Spouse",
+          "phone": "3334684534"
+        }
+      },
+      "employeeType": "FULL_TIME",
+      "employmentStatus": "ACTIVE",
+      "joiningDate": "2022-12-23",
+      "department": "Human Resources",
+      "designation": "Manager",
+      "reportingManager": {
+        "managerId": "EMP-2020-000001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      "workLocation": {
+        "office": "San Francisco",
+        "country": "USA",
+        "workMode": "IN_OFFICE"
+      }
+    },
+    {
+      "id": "EMP-2025-000002",
+      "employeeId": "EMP-2025-000002",
+      "firstName": "Bobby",
+      "lastName": "Smith",
+      "gender": "Female",
+      "dateOfBirth": "1997-05-13",
+      "maritalStatus": "Divorced",
+      "nationality": "Italian",
+      "contactDetails": {
+        "personalEmail": "bob@example.com",
+        "mobileNumber": "+1-555-123-4555",
+        "emergencyContact": {
+          "name": "Jen Smith",
+          "relationship": "Spouse",
+          "phone": "+1-788-987-8787"
+        }
+      },
+      "employeeType": "CONTRACT",
+      "employmentStatus": "ON_LEAVE",
+      "joiningDate": "2025-02-10",
+      "department": "Marketing",
+      "designation": "Manager",
+      "reportingManager": {
+        "managerId": "EMP-2020-000045",
+        "name": "Rahul Mehta",
+        "email": "rahul.mehta@company.com"
+      },
+      "workLocation": {
+        "office": "San Francisco",
+        "country": "United States",
+        "workMode": "REMOTE"
+      }
+    },
+    {
+      "id": "EMP-2025-000003",
+      "employeeId": "EMP-2025-000003",
+      "firstName": "Samual",
+      "lastName": "David",
+      "gender": "Male",
+      "dateOfBirth": "1993-07-27",
+      "maritalStatus": "Divorced",
+      "nationality": "Indian",
+      "contactDetails": {
+        "personalEmail": "samual@example.com",
+        "mobileNumber": "84782874252",
+        "emergencyContact": {
+          "name": "Naina David",
+          "relationship": "Sibling",
+          "phone": "34534534534"
+        }
+      },
+      "employeeType": "PART_TIME",
+      "employmentStatus": "INACTIVE",
+      "joiningDate": "2026-02-27",
+      "department": "Engineering",
+      "designation": "Product Manager",
+      "reportingManager": {
+        "managerId": "EMP-2020-000045",
+        "name": "Rahul Mehta",
+        "email": "rahul.mehta@company.com"
+      },
+      "workLocation": {
+        "office": "San Juan",
+        "country": "USA",
+        "workMode": "HYBRID"
+      }
+    },
+    {
+      "id": "EMP-2025-000004",
+      "employeeId": "EMP-2025-000004",
+      "firstName": "Vinod",
+      "lastName": "Kandasamy",
+      "contactDetails": {
+        "mobileNumber": "5107254306",
+        "personalEmail": "vinod.v@gmail.com",
+        "emergencyContact": {
+          "name": "Aarthie Murugavel",
+          "relationship": "Spouse",
+          "phone": "7767772341"
+        }
+      },
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "dateOfBirth": "2009-02-04",
+      "nationality": "Indian",
+      "joiningDate": "2026-02-25",
+      "employeeType": "CONTRACT",
+      "department": "Engineering",
+      "employmentStatus": "ACTIVE",
+      "designation": "Manager",
+      "workLocation": {
+        "office": "San Diego",
+        "country": "United States",
+        "workMode": "IN_OFFICE"
+      },
+      "reportingManager": {
+        "managerId": "EMP-2025-000001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      }
+    },
+    {
+      "id": "EMP-2025-000005",
+      "firstName": "Anita",
+      "lastName": "Sharma",
+      "gender": "Female",
+      "maritalStatus": "Divorced",
+      "dateOfBirth": "2009-02-03",
+      "nationality": "Indian",
+      "contactDetails": {
+        "personalEmail": "anita@example.com",
+        "mobileNumber": "8768768768",
+        "emergencyContact": {
+          "name": "Mishra Sharma",
+          "relationship": "Parent",
+          "phone": "23442423422"
+        }
+      },
+      "joiningDate": "2026-02-28",
+      "employeeType": "FULL_TIME",
+      "department": "Finance",
+      "employmentStatus": "ACTIVE",
+      "designation": "Manager",
+      "workLocation": {
+        "office": "Boston",
+        "country": "United States",
+        "workMode": "REMOTE"
+      },
+      "reportingManager": {
+        "managerId": "EMP-2025-000001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      "employeeId": "EMP-2025-000005"
+    },
+    {
+      "id": "EMP-2025-000006",
+      "firstName": "Aarthie",
+      "lastName": "Murugavel",
+      "gender": "Female",
+      "maritalStatus": "Married",
+      "dateOfBirth": "2003-02-04",
+      "nationality": "Indian",
+      "contactDetails": {
+        "personalEmail": "aarthie@example.com",
+        "mobileNumber": "8792472828",
+        "emergencyContact": {
+          "relationship": "Spouse",
+          "phone": "2347786272",
+          "name": "Vinod Kandasamy"
+        }
+      },
+      "workLocation": {
+        "country": "United States",
+        "office": "San Juan",
+        "workMode": "IN_OFFICE"
+      },
+      "joiningDate": "2026-06-09",
+      "employeeType": "FULL_TIME",
+      "department": "Sales",
+      "employmentStatus": "INACTIVE",
+      "designation": "Senior Manager",
+      "reportingManager": {
+        "managerId": "EMP-2025-000001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      "employeeId": "EMP-2025-000006"
+    },
+    {
+      "id": "EMP-2025-000007",
+      "firstName": "Cliff",
+      "lastName": "Wiscon",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "dateOfBirth": "1990-01-30",
+      "nationality": "American",
+      "contactDetails": {
+        "personalEmail": "cliff@example.com",
+        "mobileNumber": "8698787878",
+        "emergencyContact": {
+          "name": "Yuri Cliff",
+          "relationship": "Friend",
+          "phone": "5107254306"
+        }
+      },
+      "workLocation": {
+        "country": "United States",
+        "office": "San Francisco",
+        "workMode": "IN_OFFICE"
+      },
+      "joiningDate": "2026-02-23",
+      "employeeType": "CONTRACT",
+      "department": "Marketing",
+      "employmentStatus": "INACTIVE",
+      "designation": "Senior Manager",
+      "reportingManager": {
+        "managerId": "EMP-2025-000001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      "employeeId": "EMP-2025-000007"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "1",
+      "employeeName": "Samual david",
+      "employeeId": "EMP-2025-000003",
+      "leaveTypeId": 1,
+      "fromDate": "2025-03-10",
+      "toDate": "2025-03-12",
+      "reason": "Family function",
+      "status": "approved",
+      "appliedAt": "2025-03-01T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "employeeName": "Anita Sharma",
+      "employeeId": "EMP-2025-000005",
+      "leaveTypeId": 2,
+      "fromDate": "2025-01-20",
+      "toDate": "2025-01-20",
+      "reason": "Fever",
+      "status": "approved",
+      "appliedAt": "2025-01-19T08:00:00Z"
+    },
+    {
+      "id": "3",
+      "employeeId": "EMP-2025-000002",
+      "employeeName": "Bob Smith",
+      "leaveTypeId": "1",
+      "fromDate": "2026-02-10",
+      "toDate": "2026-02-17",
+      "reason": "Sick with flu",
+      "status": "rejected",
+      "appliedAt": "2026-02-03T00:12:21.781Z"
+    },
+    {
+      "id": "4",
+      "employeeId": "EMP-2025-000003",
+      "employeeName": "Samual David",
+      "leaveTypeId": "2",
+      "fromDate": "2026-02-16",
+      "toDate": "2026-02-20",
+      "reason": "Family vacation",
+      "status": "pending",
+      "appliedAt": "2026-02-03T00:15:55.882Z"
+    },
+    {
+      "id": "5",
+      "employeeId": "EMP-2025-000002",
+      "employeeName": "Bob Smith",
+      "leaveTypeId": "2",
+      "fromDate": "2026-02-13",
+      "toDate": "2026-02-25",
+      "reason": "Going on a vacation",
+      "status": "approved",
+      "appliedAt": "2026-02-03T23:23:55.198Z"
+    },
+    {
+      "id": "51",
+      "employeeId": "EMP-2025-000002",
+      "employeeName": "Bob Smith",
+      "leaveTypeId": "7",
+      "fromDate": "2026-02-17",
+      "toDate": "2026-03-25",
+      "reason": "Unpaid leave due to personal reasons",
+      "status": "pending",
+      "appliedAt": "2026-02-04T21:57:18.662Z"
+    },
+    {
+      "id": "511",
+      "employeeId": "EMP-2025-000002",
+      "employeeName": "Bob Smith",
+      "leaveTypeId": "3",
+      "fromDate": "2026-02-23",
+      "toDate": "2026-02-23",
+      "reason": "Earned leave for project",
+      "status": "rejected",
+      "appliedAt": "2026-02-04T23:58:38.532Z"
+    },
+    {
+      "id": "5111",
+      "employeeId": "EMP-2025-000003",
+      "employeeName": "Samual David",
+      "leaveTypeId": "5",
+      "fromDate": "2026-02-18",
+      "toDate": "2026-04-22",
+      "reason": "Paternity Leave",
+      "status": "approved",
+      "appliedAt": "2026-02-05T04:59:24.557Z"
+    },
+    {
+      "id": "51111",
+      "employeeId": "EMP-2025-000004",
+      "employeeName": "Vinod Kandasamy",
+      "leaveTypeId": "1",
+      "fromDate": "2026-02-11",
+      "toDate": "2026-02-11",
+      "reason": "Sick with cold",
+      "status": "pending",
+      "appliedAt": "2026-02-05T07:04:49.954Z"
+    },
+    {
+      "id": "511111",
+      "employeeId": "EMP-2025-000005",
+      "employeeName": "Anita Sharma",
+      "leaveTypeId": "1",
+      "fromDate": "2026-02-10",
+      "toDate": "2026-02-25",
+      "reason": "A minor surgery",
+      "status": "pending",
+      "appliedAt": "2026-02-05T07:31:40.671Z"
+    },
+    {
+      "id": "5111111",
+      "employeeId": "EMP-2025-000003",
+      "employeeName": "Samual David",
+      "leaveTypeId": "3",
+      "fromDate": "2026-02-18",
+      "toDate": "2026-02-27",
+      "reason": "Earned Leave",
+      "status": "pending",
+      "appliedAt": "2026-02-05T18:37:02.939Z"
+    }
+  ],
+  "payroll": [
+    {
+      "id": "86fc",
+      "employeeId": "EMP-2025-000002",
+      "bankName": "Bank of America",
+      "accountNumber": "XXXXXX7890",
+      "currency": "USD",
+      "basicSalary": 6000,
+      "housingAllowance": 1000,
+      "transportAllowance": 500,
+      "otherAllowance": 250,
+      "paymentFrequency": "MONTHLY",
+      "grossSalary": 7750
+    },
+    {
+      "id": "e54e",
+      "employeeId": "EMP-2025-000003",
+      "bankName": "ABC Bank",
+      "accountNumber": "XXXXXX7891",
+      "currency": "GBP",
+      "basicSalary": 20000,
+      "housingAllowance": 10000,
+      "transportAllowance": 1000,
+      "otherAllowance": 250,
+      "paymentFrequency": "BIWEEKLY",
+      "grossSalary": 31250
+    },
+    {
+      "id": "9ff0",
+      "employeeId": "EMP-2025-000005",
+      "bankName": "ABC Bank",
+      "accountNumber": "XXXXXX7856",
+      "currency": "INR",
+      "basicSalary": 50000,
+      "housingAllowance": 10000,
+      "transportAllowance": 4000,
+      "otherAllowance": 1000,
+      "paymentFrequency": "BIWEEKLY",
+      "grossSalary": 65000
+    },
+    {
+      "id": "8cf7",
+      "employeeId": "EMP-2025-000006",
+      "bankName": "Wells Fargo",
+      "accountNumber": "XXXXXX6523",
+      "currency": "USD",
+      "basicSalary": 30000,
+      "housingAllowance": 20000,
+      "transportAllowance": 1000,
+      "otherAllowance": 500,
+      "paymentFrequency": "WEEKLY",
+      "grossSalary": 51500
+    },
+    {
+      "id": "89ea",
+      "employeeId": "EMP-2025-000004",
+      "bankName": "Bank of America",
+      "accountNumber": "XXXXXX5555",
+      "currency": "USD",
+      "basicSalary": 100000,
+      "housingAllowance": 20000,
+      "transportAllowance": 10000,
+      "otherAllowance": 2000,
+      "paymentFrequency": "MONTHLY",
+      "grossSalary": 132000
+    },
+    {
+      "id": "355b",
+      "employeeId": "EMP-2025-000001",
+      "bankName": "Wells Fargo",
+      "accountNumber": "XXXXXX7898",
+      "currency": "EUR",
+      "basicSalary": 200000,
+      "housingAllowance": 2000,
+      "transportAllowance": 1000,
+      "otherAllowance": 2990,
+      "paymentFrequency": "WEEKLY",
+      "grossSalary": 205990
+    }
+  ]
+}
